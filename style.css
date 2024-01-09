@@ -8,6 +8,8 @@ body {
   height: 1080px;
   width: 1920px;
   font-family: "Figtree", sans-serif;
+  background-image: url('test.jpg');
+  margin: 0;
 }
 
 .container {
@@ -22,7 +24,6 @@ body {
   flex-direction: column;
   height: 1080px;
   padding: 5rem 0;
-  margin-top: 6rem;
 }
 
 .left {
@@ -61,25 +62,6 @@ body {
 
 .winter .name {
   background-image: linear-gradient(45deg, #4166cc, #10308a 100%);
-}
-
-.blur {
-  padding: 6rem 6rem;
-  margin-bottom: 2rem;
-  filter: blur(10px);
-  /* background: rgba(0, 0, 0, 0.9) !important; */
-  background: none !important;
-  backdrop-filter: blur(2px);
-}
-
-.left .blur {
-  margin-right: 12rem;
-  margin-top: 2rem;
-}
-
-.right .blur {
-  margin-left: 5rem;
-  margin-top: 5rem;
 }
 
 .left .name::before {
@@ -126,12 +108,12 @@ body {
   margin-bottom: 20rem;
 }
 
-.mb-negative {
-  margin-top: -3rem;
-}
-
 .mb-lesser {
   margin-bottom: 11rem;
+}
+
+.mt {
+  margin-top: 6rem;
 }
 
 h1 {
