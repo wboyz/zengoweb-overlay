@@ -82,6 +82,14 @@ body {
   display: var(--display);
 }
 
+.spring .right .name::after {
+  content: "🍓";
+}
+
+.spring .left .name::before {
+  content: "🍓";
+}
+
 .left .name[data-wfh]::after {
   content: "🏔️";
   font-size: 42px;
@@ -100,6 +108,14 @@ body {
   top: 0;
   transform: rotate(-15deg);
   display: block;
+}
+
+.spring .left .name[data-wfh]::after {
+  content: "☔";
+}
+
+.spring .right .name[data-wfh]::before {
+  content: "☔";
 }
 
 .mb {
@@ -132,6 +148,11 @@ h1 {
   text-shadow: 0 0 5px #0099ff, 0 0 15px #0099ff, 0 0 20px #0099ff, 0 0 40px #0099ff, 0 0 60px #003cff, 0 0 10px #0051ff, 0 0 98px #003cff;
 }
 
+.spring h1 {
+  color: #beffae;
+  text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
+}
+
 h1 span {
   font-family: "Tilt Neon", cursive;
 }
@@ -153,7 +174,7 @@ h1 span {
   56%,
   100% {
     color: #aefcff;
-    text-shadow: 0 0 5px #0099ff, 0 0 15px #0099ff, 0 0 20px #0099ff, 0 0 40px #0099ff, 0 0 60px #003cff, 0 0 10px #0051ff, 0 0 98px #003cff;
+    text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
   }
 }
 
@@ -174,6 +195,6 @@ h1 span {
   56%,
   100% {
     color: #aefcff;
-    text-shadow: 0 0 5px #0099ff, 0 0 15px #0099ff, 0 0 20px #0099ff, 0 0 40px #0099ff, 0 0 60px #003cff, 0 0 10px #0051ff, 0 0 98px #003cff;
+    text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
   }
 }
