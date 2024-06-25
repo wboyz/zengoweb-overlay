@@ -90,6 +90,14 @@ body {
   content: "🍓";
 }
 
+.summer .right .name::after {
+  content: "🍸";
+}
+
+.summer .left .name::before {
+  content: "🍸";
+}
+
 .left .name[data-wfh]::after {
   content: "🏔️";
   font-size: 42px;
@@ -153,11 +161,17 @@ h1 {
   text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
 }
 
+.summer .h1 {
+  color: #fffaae;
+  text-shadow: 0 0 5px #ffe259, 0 0 15px #ffe259, 0 0 20px #ffe259, 0 0 40px #ffe259, 0 0 60px #ffa751, 0 0 10px #ffe600, 0 0 98px #a19e00;
+}
+
 h1 span {
   font-family: "Tilt Neon", cursive;
 }
 
-@-webkit-keyframes blink {
+/* Spring */
+/* @-webkit-keyframes blink {
   20%,
   24%,
   55% {
@@ -196,5 +210,48 @@ h1 span {
   100% {
     color: #aefcff;
     text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
+  }
+} */
+
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #f7ffae;
+    text-shadow: 0 0 5px #fffb00, 0 0 15px #fffb00, 0 0 20px #fffb00, 0 0 40px #fffb00, 0 0 60px #a19e00, 0 0 10px #ffee00, 0 0 98px #a19e00;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #f7ffae;
+    text-shadow: 0 0 5px #fffb00, 0 0 15px #fffb00, 0 0 20px #fffb00, 0 0 40px #fffb00, 0 0 60px #a19e00, 0 0 10px #ffee00, 0 0 98px #a19e00;
   }
 }
