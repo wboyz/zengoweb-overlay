@@ -90,6 +90,14 @@ body {
   content: "🍓";
 }
 
+.summer .right .name::after {
+  content: "🍸";
+}
+
+.summer .left .name::before {
+  content: "🍸";
+}
+
 .left .name[data-wfh]::after {
   content: "🏔️";
   font-size: 42px;
@@ -151,6 +159,11 @@ h1 {
 .spring h1 {
   color: #beffae;
   text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
+}
+
+.summer .h1 {
+  color: #fffaae;
+  text-shadow: 0 0 5px #ffe259, 0 0 15px #ffe259, 0 0 20px #ffe259, 0 0 40px #ffe259, 0 0 60px #ffa751, 0 0 10px #ffe600, 0 0 98px #a19e00;
 }
 
 h1 span {
