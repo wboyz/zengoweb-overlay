@@ -170,11 +170,15 @@ h1 {
 .winter h1 {
   color: #aefcff;
   text-shadow: 0 0 5px #0099ff, 0 0 15px #0099ff, 0 0 20px #0099ff, 0 0 40px #0099ff, 0 0 60px #003cff, 0 0 10px #0051ff, 0 0 98px #003cff;
+  animation: blinkWinter 12s infinite;
+  -webkit-animation: blinkWinter 12s infinite;
 }
 
 .spring h1 {
   color: #beffae;
   text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
+  animation: blinkSpring 12s infinite;
+  -webkit-animation: blinkSpring 12s infinite;
 }
 
 .summer .h1 {
@@ -185,50 +189,6 @@ h1 {
 h1 span {
   font-family: "Tilt Neon", cursive;
 }
-
-/* Spring */
-/* @-webkit-keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    color: #aefcff;
-    text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
-  }
-}
-
-@keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    color: #aefcff;
-    text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
-  }
-} */
-
 
 @-webkit-keyframes blink {
   20%,
@@ -269,5 +229,89 @@ h1 span {
   100% {
     color: #f7ffae;
     text-shadow: 0 0 5px #fffb00, 0 0 15px #fffb00, 0 0 20px #fffb00, 0 0 40px #fffb00, 0 0 60px #a19e00, 0 0 10px #ffee00, 0 0 98px #a19e00;
+  }
+}
+
+@-webkit-keyframes blinkWinter {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #aef8ff;
+    text-shadow: 0 0 5px #009dff, 0 0 15px #009dff, 0 0 20px #009dff, 0 0 40px #009dff, 0 0 60px #0038a1, 0 0 10px #0084ff, 0 0 98px #0066a1;
+  }
+}
+
+@keyframes blinkWinter {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #aef8ff;
+    text-shadow: 0 0 5px #009dff, 0 0 15px #009dff, 0 0 20px #009dff, 0 0 40px #009dff, 0 0 60px #0038a1, 0 0 10px #0084ff, 0 0 98px #0066a1;
+  }
+}
+
+@-webkit-keyframes blinkSpring {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #aeffc8;
+    text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
+  }
+}
+
+@keyframes blinkSpring {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #aeffc8;
+    text-shadow: 0 0 5px #1eff00, 0 0 15px #1eff00, 0 0 20px #1eff00, 0 0 40px #1eff00, 0 0 60px #05a100, 0 0 10px #48ff00, 0 0 98px #05a100;
   }
 }
