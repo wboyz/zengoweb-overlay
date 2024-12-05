@@ -98,6 +98,14 @@ body {
   content: "🍸";
 }
 
+.winter .right .name::after {
+  content: "☃️";
+}
+
+.winter .left .name::before {
+  content: "☃️";
+}
+
 .left .name[data-wfh]::after {
   content: "🏔️";
   font-size: 42px;
@@ -116,6 +124,14 @@ body {
   top: 0;
   transform: rotate(-15deg);
   display: block;
+}
+
+.winter .left .name[data-wfh]::after {
+  content: "❄️";
+}
+
+.winter .right .name[data-wfh]::before {
+  content: "❄️";
 }
 
 .spring .left .name[data-wfh]::after {
